@@ -16,7 +16,8 @@ const StudentList = ({ students, onDeleteStudent, onUpdateStudent }) => {
   };
   const handleUpdateSubmit = (rollNo) => {
     onUpdateStudent(rollNo, updatedData);
-    setShowUpdateForm(false); // Close the popup form after submission
+    // Close the popup form after submission
+    setShowUpdateForm(false); 
   };
 
   return (
